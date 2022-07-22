@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-// import App from './fechapiaync/App';
+ import App from './App';
 // import Isrodataapi from './isrodatafechapi/Isrodataapi'
-import Todolistcode from './todoloist/Todolistcode';
-import reportWebVitals from './reportWebVitals';
+//import Todolistcode from './todoloist/Todolistcode';
+//import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
+    <App /> 
     {/* <Isrodataapi/> */}
     <Todolistcode />
   </React.StrictMode>
